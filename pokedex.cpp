@@ -104,6 +104,6 @@ Pokemon genererPokemon(EspecePokemon bestiaire[150], char* typesLabel[18]){
     cout << "XP : " << pokemonSauvage.XP << endl;
     cout << "Evolution : " << pokemonSauvage.evolution << endl;
     cout << endl; 
-    
+    return pokemonSauvage;
 }
 
